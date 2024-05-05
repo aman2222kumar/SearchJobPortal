@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loader{
+  text-align: center;
+  padding: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_title .title{
+ 
+  border-bottom:2px solid black ;
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.header_title span{
+  display: inline-block;
+  background-color: rgb(85, 60, 232);
+  color: white;
+  border-radius: 50%;
+  width: 1.3rem;
+  height: 1.3rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  position: relative;
+  right: 0.3rem;
+  top: -0.3rem;
+}
+
+.result_container .btn_apply{
+  background-color: rgb(70, 70, 233);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.result_container span:last-child{
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.search_filter_menu_container{
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  justify-content: center;
+}
+.search_filter_menu_container .inputfieldContainer{
+  height: inherit;
+  border: 2px solid rgb(228 228 228);
+  border-radius: 5px;
+}
+.search_filter_menu_container .inputfieldContainer input{
+  height: inherit;
+  outline:none;
+  border:none;
+}
+.inputfieldContainer input[type="text"]::placeholder {
+  text-align: center; /* Center-align the placeholder text */
 }
