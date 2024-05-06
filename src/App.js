@@ -211,7 +211,7 @@ function App() {
             <Grid container spacing={3}>
               {filteredData !== null
                 ? filteredData?.map((item) => (
-                    <Grid item xs={4} key={item?.jdUid}>
+                    <Grid item xs={12} sm={6} md={4} key={item?.jdUid}>
                       <Box
                         boxShadow={2}
                         borderRadius={8}
@@ -266,7 +266,7 @@ function App() {
                   ))
                 : list_of_data_jd &&
                   list_of_data_jd?.map((item) => (
-                    <Grid item xs={4} key={item?.jdUid}>
+                    <Grid item xs={12} sm={6} md={4} key={item?.jdUid}>
                       <Box
                         boxShadow={2}
                         borderRadius={8}

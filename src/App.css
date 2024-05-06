@@ -61,3 +61,15 @@
   text-decoration: none;
   color: white;
 }
+
+@media screen and (max-width:1000px) {
+  .search_filter_menu_container{
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+    margin-top: 7rem;
+  }
+  .main_container{
+    gap: 8.5rem;
+  }
+}
