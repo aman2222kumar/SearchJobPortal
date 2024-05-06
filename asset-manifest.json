@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SearchJobPortal/static/css/main.e661ba69.css",
+    "main.js": "/SearchJobPortal/static/js/main.fd2892a9.js",
+    "static/js/453.b37a934d.chunk.js": "/SearchJobPortal/static/js/453.b37a934d.chunk.js",
+    "index.html": "/SearchJobPortal/index.html",
+    "main.e661ba69.css.map": "/SearchJobPortal/static/css/main.e661ba69.css.map",
+    "main.fd2892a9.js.map": "/SearchJobPortal/static/js/main.fd2892a9.js.map",
+    "453.b37a934d.chunk.js.map": "/SearchJobPortal/static/js/453.b37a934d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e661ba69.css",
+    "static/js/main.fd2892a9.js"
+  ]
+}
