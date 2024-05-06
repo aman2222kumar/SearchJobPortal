@@ -45,10 +45,6 @@ function App() {
     }
   };
 
-  // const [workType, setWorkType] = useState([]);
-  // const [techStack, setTechStack] = useState([]);
-  // const [role, setRole] = useState("");
-  // const [minBasePay, setMinBasePay] = useState("");
   console.log(list_of_data_jd);
   const list_min_exp = list_of_data_jd
     ?.map((item) => item.minExp)
@@ -255,7 +251,16 @@ function App() {
                             {item?.minExp ? `${item?.minExp} years` : "N/A"}
                           </span>
                         </p>
-                        <Button className="btn_apply">Apply</Button>
+                        <Button className="btn_apply">
+                          {" "}
+                          <a
+                            href={item?.jdLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Apply
+                          </a>
+                        </Button>
                       </Box>
                     </Grid>
                   ))
@@ -298,13 +303,16 @@ function App() {
                           <span>Experience Required:</span>&nbsp;
                           <span>{item?.minExp || "-"} years</span>
                         </p>
-                        <a
-                          href={item?.jdLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button className="btn_apply">Apply</Button>
-                        </a>
+
+                        <Button className="btn_apply">
+                          <a
+                            href={item?.jdLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Apply
+                          </a>
+                        </Button>
                       </Box>
                     </Grid>
                   ))}
