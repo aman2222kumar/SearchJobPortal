@@ -254,7 +254,7 @@ function App() {
                         <Button className="btn_apply">
                           {" "}
                           <a
-                            href={item?.jdLink}
+                            href={"https://www.google.com"}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -306,7 +306,7 @@ function App() {
 
                         <Button className="btn_apply">
                           <a
-                            href={item?.jdLink}
+                            href={"https://www.google.com"}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
